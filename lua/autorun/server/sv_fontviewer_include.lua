@@ -1,0 +1,1 @@
+AddCSLuaFile("cl_fontviewer_detour.lua")
