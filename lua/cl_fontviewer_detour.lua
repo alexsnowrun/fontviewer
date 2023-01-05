@@ -34,9 +34,9 @@ function surface.CreateFont(name, fontdata)
     end
 
     if FontViewer.Fonts[name] then
-        MsgC(Color(255,0,0), "[FontViewer]", color_white, " Recreated font '"..name.."' in "..location)
+        MsgC(Color(255,0,0), "[FontViewer]", color_white, " Recreated font '"..name.."' in "..location.."\n")
     else
-        MsgC(Color(255,0,0), "[FontViewer]", color_white, " Created font '"..name.."' in "..location)
+        MsgC(Color(255,0,0), "[FontViewer]", color_white, " Created font '"..name.."' in "..location.."\n")
     end
 
     FontViewer.Fonts[name] = tb
